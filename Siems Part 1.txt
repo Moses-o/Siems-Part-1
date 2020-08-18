@@ -1,0 +1,11 @@
+Step 2.
+1. uploaded file
+2. "speedtest" | eval ratio =(upload_megabits / download_megabits)
+3. "speedtest" | eval ratio =(upload_megabits / download_megabits) | table _time, ip_address, download_megabits, upload_megabits, ratio
+4. If you look at the graphs before the the table is created, the first attack occured on February 23, 2020 at approximately 2:30 PM. After 3 normal occurances,
+it appears to have resolved on the same day by approximately 10 PM.
+
+Step 4
+1. upload file
+2. the attack started on February 21, 2020 at 9 AM to 1 PM.
+3. Excluding the major spike in the time frame, it seems the average is around 15 so we would double to create a threshold (30).
